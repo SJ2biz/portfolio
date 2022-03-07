@@ -6,6 +6,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'TmoneyRoundWindRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 /* 공통 */
 * {
     margin: 0;
@@ -50,14 +56,20 @@ header div h1 a {
     top: 50%;
     transform: translateY(-50%);
     font-family: 'TmoneyRoundWindExtraBold';
-    color: #24e99e;
-    
+    background: #24e99e;
+    background: -webkit-linear-gradient(left, #24e99e, #0fe3ea);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 header div p {
     font-size: 24px;
 }
 header div p:hover {
     text-decoration: underline;
+}
+header div p a {
+    font-family: 'TmoneyRoundWindRegular';
 }
 
 
@@ -83,6 +95,7 @@ header div p:hover {
 .main_visual div p {
     font-size: 40px;
     color: rgba(255, 255, 255, 0.7);
+    font-family: 'TmoneyRoundWindRegular';
 }
 
 
@@ -121,6 +134,7 @@ header div p:hover {
 }
 .best .best_box .info h4 {
     font-size: 30px;
+    font-family: 'TmoneyRoundWindRegular';
 }
 .best .best_box .info .text {
     margin-top: 20px;
@@ -282,6 +296,7 @@ header div p:hover {
 .info h4 {
     font-size: 30px;
     margin-bottom: 20px;
+    font-family: 'TmoneyRoundWindRegular';
 }
 .info dl {
     display: flex;
@@ -370,7 +385,7 @@ footer ul li {
     line-height: 50px;
     border: 1px solid #fff;
     margin: 10px auto;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 footer ul li a {
     color: #fff;
