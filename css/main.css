@@ -475,6 +475,7 @@ footer p {
     margin-right: 10px;
     box-sizing: border-box;
     border-radius: 20px;
+    transition: 0.3s;
 }
 .info ul li a {
     padding: 0 20px;
