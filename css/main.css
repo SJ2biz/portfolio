@@ -173,12 +173,7 @@ header div p a {
 .best .best_box .info ul li a {
     padding: 0 25px;
 }
-.best .best_box .info ul li:hover {
-    
-}
-.best .best_box .info ul li:first-of-type {
-    border: 2px solid #24e99e;
-}
+
 
 .best .best_box .info ul li:first-of-type:hover {
     box-shadow: 2px 3px 20px rgba(43, 250, 171, 0.4);
