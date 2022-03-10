@@ -180,9 +180,7 @@ header div p a {
 .best .best_box .info ul li:first-of-type {
     border: 2px solid #24e99e;
 }
-.best .best_box .info ul li:first-of-type a {
-    color: #24e99e;
-}
+
 .best .best_box .info ul li:first-of-type:hover {
     box-shadow: 2px 3px 20px rgba(43, 250, 171, 0.4);
 }
@@ -463,15 +461,21 @@ footer p {
     /* background-color: #333; */
     background: rgb(36,233,158);
     background: linear-gradient(90deg, rgba(36,233,158,1) 0%, rgba(14,227,236,1) 100%);
-    border: 1px solid rgb(254,131,53);
+    transition: 0.3s;
+}
+.info ul li:first-of-type:hover {
+    box-shadow: 2px 3px 20px rgba(43, 250, 171, 0.4);
+}
+.info ul li:last-of-type {
+    border: solid 2px #ddd;
 }
 
 .info ul li {
     height: 45px;
     line-height: 45px;
-    border: 1px solid #333;
     margin-right: 10px;
     box-sizing: border-box;
+    border-radius: 20px;
 }
 .info ul li a {
     padding: 0 20px;
