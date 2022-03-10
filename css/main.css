@@ -165,7 +165,6 @@ header div p a {
     height: 45px;
     line-height: 45px;
     background-color: #fff;
-    border: 2px solid #ddd;
     margin-right: 10px;
     border-radius: 20px;
     transition: 0.3s;
@@ -456,7 +455,11 @@ footer p {
     margin-bottom: 40px;
     line-height: 1.5;
 }
-.info ul {display: flex; margin-top: 30px;}
+.info ul {
+    display: flex;
+    margin-top: 30px;
+    font-weight: bold;
+}
 .info ul li:first-of-type {
     /* background-color: #333; */
     background: rgb(36,233,158);
@@ -466,8 +469,8 @@ footer p {
 .info ul li:first-of-type:hover {
     box-shadow: 2px 3px 20px rgba(43, 250, 171, 0.4);
 }
-.info ul li:last-of-type {
-    border: solid 2px #ddd;
+.info ul li:last-of-type:hover {
+    box-shadow: 2px 3px 20px rgba(43, 250, 171, 0.4);
 }
 
 .info ul li {
