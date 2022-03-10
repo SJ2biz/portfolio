@@ -230,6 +230,7 @@ header div p a {
     border-radius: 20px;
     font-weight: bold;
     transition: 0.3s;
+    cursor: pointer;
 }
 .youtube_wrap .youtube_menu li:hover {
     box-shadow: 2px 3px 20px rgba(43, 250, 171, 0.4);
